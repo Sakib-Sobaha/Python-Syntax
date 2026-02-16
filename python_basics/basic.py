@@ -76,21 +76,21 @@ print(a)
 
 x = 24
 y = 20
-list = [10, 20, 30, 40, 50, 60]
+lista = [10, 20, 30, 40, 50, 60]
 
-if (x not in list):
+if x not in lista:
     print("x is absent from the list")
 else:
     print("x is present in the list")
 
-if (y in list):
+if y in lista:
     print("y is present")
 else:
     print("y is absent")
 
 # Ternary operator
 a,b = 10,20
-min = a if a < b else b 
+mini = a if a < b else b
 
 import keyword
 
