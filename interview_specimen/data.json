@@ -1,0 +1,25 @@
+{
+  "movies": [
+    { "id": "m1", "title": "Sky Journey", "year": 2020, "directorId": "d1", "genre": "Adventure", "rating": 8.7, "ratingCount": 1200 },
+    { "id": "m2", "title": "Code of Dawn", "year": 2022, "directorId": "d2", "genre": "Drama", "rating": 9.1, "ratingCount": 950 },
+    { "id": "m3", "title": "River Whisper", "year": 2019, "directorId": "d1", "genre": "Drama", "rating": 9.1, "ratingCount": 1100 },
+    { "id": "m4", "title": "Tiny Robots", "year": 2021, "directorId": "d3", "genre": "Family", "rating": 7, "ratingCount": 30 },
+    { "id": "m5", "title": "Neon Nights", "year": 2018, "directorId": "d2", "genre": "Sci-Fi", "rating": 8.9, "ratingCount": 2000 },
+    { "id": "m6", "title": "Paper Planes", "year": 2023, "directorId": "d3", "genre": "Family", "rating": 8.9, "ratingCount": 1800 }
+  ],
+  "users": [
+    { "id": "u1", "name": "Amina", "country": "BD" },
+    { "id": "u2", "name": "Rafi", "country": "BD" },
+    { "id": "u3", "name": "Noah", "country": "US" }
+  ],
+  "directors": [
+    { "id": "d1", "name": "N. Karim" },
+    { "id": "d2", "name": "S. Rahman" },
+    { "id": "d3", "name": "T. Chowdhury" }
+  ],
+  "reviews": [
+    { "id": "r1", "movieId": "m2", "userId": "u1", "score": 10, "comment": "Loved it!" },
+    { "id": "r2", "movieId": "m2", "userId": "u2", "score": 9, "comment": "Great story." },
+    { "id": "r3", "movieId": "m3", "userId": "u3", "score": 9, "comment": "Very good." }
+  ]
+}
